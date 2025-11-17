@@ -1,0 +1,102 @@
+'''html = """
+<h1>Hello Baby</h1>
+<p>Your website is ready!</p>
+"""
+
+with open("business.html", "w", encoding="utf-8") as f:
+    f.write(html)
+
+print("Done! File created: business.html")'''
+
+html = """
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Cute Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+            margin: 0;
+            padding: 40px;
+            color: #333;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            max-width: 500px;
+            margin: auto;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #d6336c;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Hello Baby 💗</h1>
+        <p>Your beautiful website is ready!</p>
+    </div>
+
+</body>
+</html>
+"""
+
+with open("business.html", "w", encoding="utf-8") as f:
+    f.write(html)
+
+print("Cute website created!")
+html = """
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Cute Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+            margin: 0;
+            padding: 40px;
+            color: #333;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            max-width: 500px;
+            margin: auto;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #d6336c;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Hello Baby 💗</h1>
+        <p>Your beautiful website is ready!</p>
+    </div>
+
+</body>
+</html>
+"""
+
+with open("business.html", "w", encoding="utf-8") as f:
+    f.write(html)
+
+print("Cute website created!")
